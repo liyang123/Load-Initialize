@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)Btn:(id)sender {
-    Child *child = [Child new];
+    Child *child = [[Child alloc] init];
     NSLog(@"%@",child);
 }
 

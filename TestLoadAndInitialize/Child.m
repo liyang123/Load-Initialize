@@ -20,4 +20,13 @@
 {
     NSLog(@"%s, %@", __func__, NSStringFromClass(self));
 }
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"%s", __func__);
+    }
+    return self;
+}
 @end
