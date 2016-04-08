@@ -15,6 +15,9 @@
 		B61D47CD1CB74D2600AC01AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61D47CB1CB74D2600AC01AA /* LaunchScreen.storyboard */; };
 		B61D47D81CB74D2600AC01AA /* TestLoadAndInitializeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D47D71CB74D2600AC01AA /* TestLoadAndInitializeTests.m */; };
 		B61D47E31CB74D2600AC01AA /* TestLoadAndInitializeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D47E21CB74D2600AC01AA /* TestLoadAndInitializeUITests.m */; };
+		B61D47F21CB74D3B00AC01AA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D47F11CB74D3B00AC01AA /* Person.m */; };
+		B61D47F51CB74D5E00AC01AA /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D47F41CB74D5E00AC01AA /* Child.m */; };
+		B61D47FA1CB7540000AC01AA /* Other.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D47F71CB74F4D00AC01AA /* Other.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B61D47DE1CB74D2600AC01AA /* TestLoadAndInitializeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLoadAndInitializeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61D47E21CB74D2600AC01AA /* TestLoadAndInitializeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoadAndInitializeUITests.m; sourceTree = "<group>"; };
 		B61D47E41CB74D2600AC01AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61D47F01CB74D3B00AC01AA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B61D47F11CB74D3B00AC01AA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B61D47F31CB74D5E00AC01AA /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		B61D47F41CB74D5E00AC01AA /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		B61D47F61CB74F4D00AC01AA /* Other.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Other.h; sourceTree = "<group>"; };
+		B61D47F71CB74F4D00AC01AA /* Other.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Other.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				B61D47C11CB74D2600AC01AA /* AppDelegate.m */,
 				B61D47C31CB74D2600AC01AA /* ViewController.h */,
 				B61D47C41CB74D2600AC01AA /* ViewController.m */,
+				B61D47F01CB74D3B00AC01AA /* Person.h */,
+				B61D47F11CB74D3B00AC01AA /* Person.m */,
+				B61D47F31CB74D5E00AC01AA /* Child.h */,
+				B61D47F41CB74D5E00AC01AA /* Child.m */,
+				B61D47F61CB74F4D00AC01AA /* Other.h */,
+				B61D47F71CB74F4D00AC01AA /* Other.m */,
 				B61D47C61CB74D2600AC01AA /* Main.storyboard */,
 				B61D47C91CB74D2600AC01AA /* Assets.xcassets */,
 				B61D47CB1CB74D2600AC01AA /* LaunchScreen.storyboard */,
@@ -272,7 +287,10 @@
 			files = (
 				B61D47C51CB74D2600AC01AA /* ViewController.m in Sources */,
 				B61D47C21CB74D2600AC01AA /* AppDelegate.m in Sources */,
+				B61D47F21CB74D3B00AC01AA /* Person.m in Sources */,
 				B61D47BF1CB74D2600AC01AA /* main.m in Sources */,
+				B61D47F51CB74D5E00AC01AA /* Child.m in Sources */,
+				B61D47FA1CB7540000AC01AA /* Other.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

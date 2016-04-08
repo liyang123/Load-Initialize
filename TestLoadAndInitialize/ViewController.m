@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Person.h"
+#import "Child.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)Btn:(id)sender {
+    Child *child = [Child new];
+    NSLog(@"%@",child);
 }
 
 - (void)didReceiveMemoryWarning {
